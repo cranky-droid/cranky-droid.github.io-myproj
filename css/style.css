@@ -18,6 +18,12 @@ h1 {
 nav {
     background-color: #34495e; 
     padding: 10px;
+    display: inline-block;
+    width: 80%;
+}
+
+nav img {
+    width: 10%;
 }
 
 main {
@@ -58,4 +64,14 @@ nav a {
 nav a:hover {
     background-color: #1abc9c;
     border-radius: 4px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    gap: 20px;
+}
+
+.grid img {
+    width: 100%;
 }
